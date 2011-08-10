@@ -1,0 +1,12 @@
+This is a Nagios IRC bot that was written many years ago and I have carried with me from
+job to job.  As noted, originally it was written by David D. Miller.  I do not claim
+copyright over anything other than the portions I wrote, and as noted, this is licensed
+under the Mozilla Public License.
+
+The code is very old and relies on no-longer-supported Perl modules.  I don't recommend
+this system be part of your crucial notification system, but as a nice-to-have, it's
+pretty useful.
+
+Configuration right now is done manually by editing the bot.  Look at the top of the
+file and you'll see some information about nickname, location, etc.  If you search through
+the rest of the file for "CONFIG" you'll see other spots you can configure.
